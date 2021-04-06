@@ -39,30 +39,18 @@ img {
 
 .section-start > h3 {
 	color: #9070C0;
-	font-size: 1.5em;
-	text-decoration: underline;
-}
-
-.project-table tr {
-	width: 50%;
-	background-color: red;
-	font-size: 0.5em;
+	/* font-size: 1.5em; */
+	/* text-decoration: underline; */
 }
 
 h4 {
 	color: #EFEFEF; 
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	padding: 0em;
 	padding-top: 0.3em;
 	padding-left: 0.2em;
 	margin: 0em;
 	font-size: 1.3em;
-}
-
-h4 + div {
-	color: white;
-	padding: 0.0em 0.6em;
-	font-size: 1.0em;
 }
 
 a:link, a:visited {
