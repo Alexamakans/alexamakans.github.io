@@ -1,0 +1,86 @@
+body {
+	background:
+		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+		linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+		linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+		linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+		linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+	justify-content: center;
+}
+
+h1 {
+	padding: 0.0em 0.1em;
+	margin: 0;
+	color: lightgreen;
+}
+
+h2 {
+	padding: 0.05em 2em;
+	margin: 0;
+	color: lightblue;
+}
+
+img {
+	border-color: gray;
+	border-style: solid;
+}
+
+.main {
+	padding-left: 25%;
+	width: 50%;
+	max-width: 800px;
+	font-size: 1.6em;
+}
+
+.section-start > h3 {
+	color: #9070C0;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+.project-table tr {
+	width: 50%;
+	background-color: red;
+	font-size: 0.5em;
+}
+
+h4 {
+	color: #EFEFEF; 
+	text-decoration: underline;
+	padding: 0em;
+	padding-top: 0.3em;
+	padding-left: 0.2em;
+	margin: 0em;
+	font-size: 1.3em;
+}
+
+h4 + div {
+	color: white;
+	padding: 0.0em 0.6em;
+	font-size: 1.0em;
+}
+
+a:link, a:visited {
+	color: lightblue;
+	cursor: hand;
+}
+
+a:link:active, a:visited:active {
+	color: white;
+}
+
+a:hover {
+	color: darkblue;
+	text-decoration: underline;
+}
+
+p {
+	color: #E0E0E0;
+	word-wrap: break-word;
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: 0.9em;
+}
